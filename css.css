@@ -1,0 +1,36 @@
+.retangulo-escrita {
+    width: 300px;
+    height: 200px ;
+    position: static;
+    padding: 10px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.IdFuncionario {
+    width: 300px;
+    height: 200px ;
+    position: static;
+    padding: 10px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.alertaHello {
+    width: 300px;
+    height: 200px ;
+    position: static;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
