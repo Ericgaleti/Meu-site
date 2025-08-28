@@ -1,13 +1,15 @@
-var IdFuncionario = 848980;
+let codigo = 848980;
 
-const entradaDados = require('readline-sync');
+    function verificarCodigo() {
+        // Pega o elemento do campo de texto pelo seu ID
+        const input = document.getElementById('codigoVerificacao');
+        // Pega o valor digitado e converte para número
+        const valorDigitado = Number(input.value);
 
-console.log('Ola! Qual e o codigo de acesso! \n\n')
-
-let IdFuncionario = entradaDados.question ("digite o codigo de acesso: ");
-
-console.log ("\n\nOla" + IdFuncionario + "\n\n"); + "Seu acesso foi altorizado" && "Seu acesso foi negado";
-
-function alertaVerificacao() {
-    alert ("Seu cadastro esta cendo verificado " + IdFuncionario);
-}
+        // Verifica se o valor digitado é igual ao código esperado
+        if (valorDigitado === codigo) {
+            alert('Código correto!');
+        } else {
+            alert('Código incorreto. Tente novamente.');
+        }
+    }
